@@ -1,10 +1,10 @@
 # Hello-Portfolio
 # A number guessing game
 # The randint() method returns an integer number selected element from the specified range.
+
 import random 
 computerchoice = random.randint(1, 100)
 score = 0
-
 while score != 1:
     guess = int(input("Guess the number that the computer has chosen from 1-100: "))
     
